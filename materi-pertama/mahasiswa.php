@@ -24,7 +24,13 @@ $mahasiswa2->nim = 'T3124002';
 $mahasiswa2->nama = 'Budi';
 $mahasiswa2->prodi = 'Sistem Informasi';
 
+$mahasiswa3 = new Mahasiswa();
+$mahasiswa3->nim = 'T3124003';
+$mahasiswa3->nama = 'Cici';
+$mahasiswa3->prodi = 'Sistem Informasi';
+
 echo "DAftar Mahasiswa <br>";
 echo"-----------------------------<br>";
 echo $mahasiswa1->sayHello().'<br>';
 echo $mahasiswa2->sayHello().'<br>';
+echo $mahasiswa3->sayHello().'<br>';
