@@ -12,5 +12,7 @@ $apple = [
     new fruit("Mango"),
 ];
 foreach($apple as $fruit){
-    echo "fruit name: " . $fruit->name . "<br>";
+    echo "fruit na
+    me: " . $fruit->name . "<br>";
 }
+unset($apple);
